@@ -47,16 +47,11 @@ function dbConnect() {
 
   //  vaconfig.database.flags = "SSL";
 
-  const databaseConfig ={
-    host: null,
-    port: null,
-    user: null,
-    password: null,
-    database: null,
-  }
+  let newDB = Object.create(config.database);
+  delete newDB['created'];
 
   // Connect to the database
-  db = mysql.createConnection(databaseConfig);
+  db = mysql.createConnection(newDB);
 
 }
 
