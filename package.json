@@ -1,0 +1,26 @@
+{
+  "name": "mysql_interface",
+  "version": "1.0.0",
+  "description": "A NodeJS interface layer between a MySQL database",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vacenter/mysql_interface.git"
+  },
+  "keywords": [
+    "VACenter",
+    "MySQL",
+    "MySQL2",
+    "phpmyadmin",
+    "js"
+  ],
+  "author": "Arman Danesh",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/sam-neale/mysql_interface/issues"
+  },
+  "homepage": "https://github.com/sam-neale/mysql_interface"
+}
