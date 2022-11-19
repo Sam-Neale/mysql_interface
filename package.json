@@ -1,6 +1,6 @@
 {
   "name": "mysql_interface",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS interface layer between a MySQL database",
   "main": "index.js",
   "repository": {
