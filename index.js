@@ -618,7 +618,7 @@ functions.drop = () => {
  */
 functions.init = (params = { host: null, port: null, user: null, password: null, database: null, created: false }, dbSchema ,reset = false) => {
   return new Promise(async (resolve, reject) => {
-
+    config.database = params;
     // Check there is a DB config object
     if (!config.hasOwnProperty("database")) {
 
