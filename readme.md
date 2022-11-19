@@ -1,7 +1,7 @@
 **Classification: Public Domain**
 <div align=center>
 <h1>MySQL Interface</h1>
-<a href="https://github.com/vacenter/tbd">https://github.com/vacenter/tbd</a>
+<a href="https://github.com/vacenter/mysql_interface">https://github.com/vacenter/mysql_interface</a>
 </div>
 
 
@@ -13,7 +13,7 @@ The package supports a custom relational system.
 
 <br><h2>Where can I get this?</h2>
 <hr>
-Using NPM: https://www.npmjs.com/package/tbd
+Using NPM: https://www.npmjs.com/package/mysql_interface
 
 <br><h2>Code Docs</h2>
 <hr>
