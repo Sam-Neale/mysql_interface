@@ -26,7 +26,7 @@ Using NPM: https://www.npmjs.com/package/mysql_interface
 **Example**
 
 ```js
-const db = require('tbd');
+const db = require('mysql_interface');
 const fs = require("fs");
 db.init({host: "127.0.0.1", port: 3306, user: "myUser", password: "myPassword", database: "myDatabase"}, JSON.parse(fs.readFileSync('schema.json', 'UTF-8')));
 ```
